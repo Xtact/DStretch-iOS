@@ -1,6 +1,6 @@
 # DStretch-iOS
 
-iOS app implementation of DStretch decorrelation stretch rock art enhancement app in Swift.
+iOS application implementation of DStretch decorrelation stretch rock art enhancement app in Swift.
 
 ## Features
 
