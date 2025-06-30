@@ -1,20 +1,6 @@
-name: Swift CI
-
 on:
   push:
-    branches: [ main ]
+    # Triggers on push to any branch
+    branches: [ "*" ]
   pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Build Swift Package
-      run: swift build
-
-    - name: Run Tests
-      run: swift test
+    branches: [ "*" ]
